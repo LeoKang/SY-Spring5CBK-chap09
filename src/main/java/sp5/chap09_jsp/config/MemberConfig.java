@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
-import sp5.chap09_jsp.spring.ChangePasswordService;
 import sp5.chap09_jsp.spring.MemberDao;
+import sp5.chap09_jsp.spring.ChangePasswordService;
 import sp5.chap09_jsp.spring.MemberRegisterService;
 
 @Configuration
